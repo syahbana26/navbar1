@@ -35,11 +35,13 @@ main {
     height: 90vh;
     flex-direction: column;
 }
-
-.btn:hover{
-    color: aqua;
-    /* background-color: green; */
-    margin: 10px;
+.btn{
     font-family: initial;
     padding: 10px 20px;
+
+}
+.btn:hover{
+    color: aqua;
+    background-color: green;
+    margin: 10px;
 }

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+nav {
+    height: 50px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(137, 137, 216);
+}
+a {
+    color: rgb(184, 156, 224);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover{
+    color: black;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.btn:hover{
+    color: aqua;
+    /* background-color: green; */
+    margin: 10px;
+    font-family: initial;
+    padding: 10px 20px;
+}
